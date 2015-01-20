@@ -1,0 +1,32 @@
+/*
+  Thank you to Josh Nychuk for the theme! http://www.nychukdesign.com and MetFizzy for the wonderful Isotope layout http://isotope.metafizzy.co/
+
+*/
+/*- - - - - - - - - - - - - - - - - - -*\
+    MAIN
+\*- - - - - - - - - - - - - - - - - - -*/
+
+/* global box-sizing */
+*,
+*:after,
+*:before {
+  box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-font-smoothing:antialiased;
+  font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+
+html {height:100%;}
+
+
+body {
+  font-family: 'BWHaasHead', Helvetica;
+  font-size: 1em; /* 16px / 16px */
+  line-height: 1.5em; /* 22px / 16px */
+  height: 100%;
+  margin: auto;
+}
+
+
