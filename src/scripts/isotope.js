@@ -1,15 +1,20 @@
 var Isotope = require('isotope-layout');
+var imagesLoaded = require('imagesloaded');
 
 module.exports = function() {
 
-    var container = document.querySelector('#content-container')
+    var container = document.querySelector('#isotope-container')
     //init
-    var iso = new Isotope(container, {
-      itemSelector: '.project-item',
-      masonry: {
-        columnWidth: 10
-      }
-    });
+    imagesLoaded(container, function() {
+      var iso = new Isotope(container, {
+        itemSelector: '.project-item',
+        masonry: {
+          columnWidth: 270,
+          isFitWidth: true
+        }
+      });      
+    })
+
 
 
     // // filter functionality
