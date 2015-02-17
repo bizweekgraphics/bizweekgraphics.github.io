@@ -16,7 +16,7 @@ module.exports = function() {
       });      
     });
 
-    var filters = document.querySelectorAll('.filter-container li')
+    var filters = document.querySelectorAll('.filter-container .random')
     var filterLength = filters.length;
 
     for(var i=0; i < filterLength; i++) {
@@ -31,17 +31,10 @@ module.exports = function() {
         }        
     }
 
-
-    // // filter functionality
-    // $('#filters a').click(function(){
-    //   var selector = $(this).attr('data-filter');
-    //   $container.isotope({ filter: selector });
-    //   return false;
-    // });
-    //       });
-
-    //   $container.preloader({
-    //     fadeIn: 700,
-    //     delay : 200
-    //   });
+    var allFilter = document.querySelector('.filter-container .all');
+    allFilter.onclick = function() {
+        iso.arrange({
+            filter: function() {return true}
+        })
+    }
 }
