@@ -1,15 +1,66 @@
+$item-size: 350px;
+
 #content-container {
   width: 100%;
   padding: 0% 5%;
-  margin-top: 125px;
+  margin-top: 140px;
+
+  .filter-container {
+
+    text-align: center;
+
+    li {
+      cursor: pointer;
+      display: inline;
+      margin: 1em;
+      font-size: 1.5em;
+      background: black;
+      padding: .25em .5em;
+      color: white;
+      // -webkit-animation: background-rainbow 5s linear infinite;
+      &:nth-child(2) {
+        background: cyan;
+      }
+
+      &:nth-child(3) {
+        background: #0f0;
+      }
+
+      &:nth-child(4) {
+        background: magenta;
+      }
+
+      &:nth-child(5) {
+        background: #7920FF;
+      }
+
+    }
+  }
 
   #isotope-container {
     margin: 0 auto;
   }
 
   .project-item {
+    display: inline;
     margin: 5px;
-    width: 250px;
+    width: $item-size;
+    height: $item-size;
+    border: 3px solid black;
+    overflow: hidden;
+
+    .thumb-title {
+      margin: 0px;
+      position: absolute;
+      padding: 10px 5px;
+      color: white;
+      background: black;
+      pointer-events: none;
+    }
+
+    img {
+      height: $item-size;
+    }
 
   }
 }

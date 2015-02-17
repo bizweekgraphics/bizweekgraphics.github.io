@@ -15,11 +15,20 @@
   </header>
 
   <div id="content-container">
+
+    <ul class="filter-container">
+      <li>Filter:</li>
+      <li>lol</li>
+      <li>ha</li>
+      <li>woops</li>
+      <li>all</li>
+    </ul>
     
     <div id="isotope-container">
       {{#projects}}
         <div class="project-item">
-          <img src="http://placehold.it/250x250">
+          <h2 class="thumb-title">{{name}}</h2>
+          <a href="{{url}}"><img src="img/{{img}}"></a>
         </div>
       {{/projects}}
     </div>
