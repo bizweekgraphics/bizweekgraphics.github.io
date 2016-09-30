@@ -153,3 +153,16 @@ body{
 .james{
 	display:block;
 }
+
+.runner-up{
+	margin-top: 50px;
+}
+.runner-up h2{
+	text-decoration: underline;
+	margin: 5px 0;
+}
+
+.counter{
+	margin: 50px auto 100px auto;
+	text-align: center;
+}
