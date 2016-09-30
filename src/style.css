@@ -7,8 +7,9 @@ body{
 
 
 .logo{
-	margin: 90px auto 20px auto;
+	margin: 0 auto 20px auto;
 	max-width:  600px;
+	padding-top: 90px;
 }
 
 .portrait{
