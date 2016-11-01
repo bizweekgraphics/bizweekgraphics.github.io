@@ -58,6 +58,15 @@ body{
   	text-shadow: -0.02em -0.03em 0.005em rgba(255, 223, 0, 0.60);
 }
 
+.sponsor{
+	top: 70px;
+	right:70px;
+	position: fixed;
+	background: url('sponsor.png');
+	height: 300px;
+	width: 300px;
+	z-index: 2;
+}
 
 .frame_top{
 	top: 0;
@@ -146,12 +155,16 @@ body{
 	z-index: 2;
 }
 
+.counter{
+	margin: 50px auto 100px auto;
+	text-align: center;
+}
 
 .steph{
-	display:none;
+	display:block;
 }
 .james{
-	display:block;
+	display:none;
 }
 
 .runner-up{
@@ -162,7 +175,4 @@ body{
 	margin: 5px 0;
 }
 
-.counter{
-	margin: 50px auto 100px auto;
-	text-align: center;
-}
+
