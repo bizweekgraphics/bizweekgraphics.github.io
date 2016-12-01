@@ -1,9 +1,35 @@
+
+
+
 body{
 	color: #D6AA51;
 	background: #000;
 	font-family: arial;
 	-webkit-font-smoothing: none;
 }
+
+@keyframes slide{
+	from {
+		transform: translateX(200%) translateZ(0);
+	}
+	to{
+		transform: translateX(-100%) translateZ(0);
+	}
+}
+
+.snowman{
+	position: fixed;
+	width: 50%;
+	height: 50%;
+	background: url('snowman.png') no-repeat center center;
+	background-size: contain;
+	bottom: 0;
+	left: 0;
+	transform: translateX(200%) translateZ(0);
+	animation: slide 10s linear infinite alternate;
+	animation-delay: 2s;
+}
+
 
 
 .logo{
@@ -62,7 +88,7 @@ body{
 	top: 70px;
 	right:70px;
 	position: fixed;
-	background: url('sponsor.png');
+	background: url('sponsor2.png');
 	height: 300px;
 	width: 300px;
 	z-index: 2;
@@ -161,10 +187,10 @@ body{
 }
 
 .steph{
-	display:block;
+	display:none;
 }
 .james{
-	display:none;
+	display:block;
 }
 
 .runner-up{
