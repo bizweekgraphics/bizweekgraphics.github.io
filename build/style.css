@@ -1,6 +1,6 @@
 body{
-	color: #D6AA51;
-	background: #000;
+	color: #000;
+	background: red;
 	font-family: arial;
 	-webkit-font-smoothing: none;
 	cursor: url('cursor.png'), default;
@@ -9,8 +9,9 @@ body{
 
 .logo{
 	margin: 0 auto 20px auto;
-	max-width:  600px;
+	max-width:  90%;
 	padding-top: 90px;
+	text-align: center;
 }
 
 .logo img{max-width: 100%}
@@ -62,8 +63,8 @@ body{
 }
 
 .sponsor{
-	top: 70px;
-	right:70px;
+	top: 0px;
+	right:0px;
 	position: fixed;
 	background: url('sponsor.png');
 	height: 300px;
@@ -75,7 +76,7 @@ body{
 	top: 0;
 	left:0;
 	position: fixed;
-	background: url('frame_top.jpg');
+	background: url('border.jpg');
 	background-repeat: repeat-x;
 	height: 70px;
 	width: 100%;
@@ -85,7 +86,7 @@ body{
 	bottom:0;
 	left:0;
 	position: fixed;
-	background: url('frame_bottom.jpg');
+	background: url('border.jpg');
 	width: 100%;
 	height: 70px;
 	z-index: 3;
@@ -94,7 +95,7 @@ body{
 	right:0;
 	top:0;
 	position: fixed;
-	background: url('frame_right.jpg');
+	background: url('border.jpg');
 	width: 70px;
 	height: 100%;
 	z-index: 3;
@@ -103,7 +104,7 @@ body{
 	left:0;
 	top:0;
 	position: fixed;
-	background: url('frame_left.jpg');
+	background: url('border.jpg');
 	height: 100%;
 	width: 70px;
 	z-index: 3;
