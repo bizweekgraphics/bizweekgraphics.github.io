@@ -1,0 +1,130 @@
+{"projects" : 
+  [
+    {
+      "name": "25 Years of Oil Spills",
+      "url": "http://www.businessweek.com/articles/2014-03-13/25-years-of-oil-spills",
+      "github": "",
+      "img": "oilspill.png"
+    },
+
+    {
+      "name": "How to Debug a Jet",
+      "url": "http://images.businessweek.com/graphics/airbus-a350-3d-graphic/",
+      "github": "https://github.com/bizweekgraphics/airbus",
+      "img": "airbus_350.gif"
+    },
+
+    {
+      "name": "Bitcoin Mining Game",
+      "url": "http://www.businessweek.com/articles/2014-01-13/interactive-simulation-how-to-mine-bitcoin",
+      "github": "https://github.com/bizweekgraphics/toymine",
+      "img": "bitcoin.jpg"
+    },
+
+    {
+      "name": "Oil Spills Teaser",
+      "url": "http://flip.bizweekgraphics.com/s/oilspill/",
+      "github": "",
+      "img": "oilspill2.png"
+    },
+
+    {
+      "name": "Where the Wealthiest Live",
+      "url": "http://www.businessweek.com/articles/2014-01-29/where-americas-wealthiest-suburbanites-live-and-where-they-dont",
+      "github": "",
+      "img": "cities.jpg"
+    },
+
+    {
+      "name" : "Fighting Roe V. Wade",
+      "url": "http://www.businessweek.com/articles/2013-01-17/fighting-roe-v-dot-wade",
+      "github": "",
+      "img": "abortion.png"
+    },
+
+    {
+      "name": "A Long Wait on Death Row",
+      "url": "http://images.businessweek.com/graphics/airbus-a350-3d-graphic/",
+      "github": "https://github.com/bizweekgraphics/allison_swan_song/tree/master/death_row",
+      "img": "deathrow.png"
+    },
+
+    {
+      "name": "The Drone War",
+      "url": "http://www.businessweek.com/articles/2013-05-23/the-drone-war-a-comprehensive-map-of-lethal-u-dot-s-dot-attacks",
+      "github": "https://github.com/bizweekgraphics/allison_swan_song/tree/master/DRONES",
+      "img": "drones.png"
+    },
+
+    {
+      "name": "California's Droughts",
+      "url": "http://www.businessweek.com/articles/2014-02-05/californias-drought-in-two-terrifying-charts",
+      "github": "https://github.com/bizweekgraphics/marimekko-drought",
+      "img": "drought.jpg"
+    },
+
+    {
+      "name": "A Loaded Question",
+      "url": "http://www.businessweek.com/articles/2013-03-11/a-loaded-question-gun-ownership-vs-dot-gun-deaths-worldwide",
+      "github": "",
+      "img": "gun_deaths.jpg"
+    },
+
+    {
+      "name": "Jay-Z is Right",
+      "url": "http://www.businessweek.com/articles/2013-07-09/jay-z-is-right-most-rappers-are-lying-about-their-money",
+      "github": "",
+      "img": "jayz.jpg"
+    },
+
+    {
+      "name": "Long-Term Joblessness",
+      "url": "http://www.businessweek.com/articles/2013-02-07/the-rise-of-long-term-joblessness",
+      "github": "",
+      "img": "joblessness.jpg"
+    },
+
+    {
+      "name": "Cleaning Up America",
+      "url": "http://www.businessweek.com/articles/2013-08-01/cleaning-up-america",
+      "github": "",
+      "img": "cleanup.png"
+    },
+
+    {
+      "name": "Wide World of GDP Growth",
+      "url": "http://www.businessweek.com/articles/2013-11-14/2014-outlook-world-economic-growth-map",
+      "github": "https://github.com/bizweekgraphics/allison_swan_song/tree/master/gdpmap",
+      "img": "wideworld.png"
+    },
+
+    {
+      "name": "The Stairway to Heaven?",
+      "url": "http://www.businessweek.com/articles/2014-05-15/the-stairway-to-heaven-game-did-led-zeppelin-steal-the-greatest-song-opening-in-rock-history",
+      "github": "https://github.com/bizweekgraphics/zeppelin",
+      "img": "zeppelin.png"
+    },
+
+    {
+      "name": "Global Tech Landing",
+      "url": "http://www.businessweek.com/features/the-global-technology-issue-way-beyond-silicon-valley/",
+      "github": "https://github.com/bizweekgraphics/global-tech-landing",
+      "img": "globaltech.png"
+    },
+
+    {
+      "name": "Where Does the Time Go?",
+      "url": "http://www.businessweek.com/articles/2014-07-02/interactive-graphic-how-americans-spend-their-time",
+      "github": "https://github.com/bizweekgraphics/ATUS",
+      "img": "atus.png"
+    },
+
+    {
+      "name": "Umpire Auditor",
+      "url": "http://www.businessweek.com/graphics/baseballs-worst-call-of-the-day/#/",
+      "github": "https://github.com/dyep49/Angular-Umpire-Auditor",
+      "img": "umpire.gif"
+    }
+
+  ]
+}
