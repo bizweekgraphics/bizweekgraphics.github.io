@@ -3,7 +3,7 @@ body{
 	background: #000;
 	font-family: arial;
 	-webkit-font-smoothing: none;
-	cursor: url('cursor.png'), default;
+	cursor: url('../img/cursor.png'), default;
 }
 
 
@@ -63,7 +63,7 @@ body{
 	top: 70px;
 	right:70px;
 	position: fixed;
-	background: url('sponsor.png');
+	background: url('../img/sponsor.png');
 	height: 300px;
 	width: 300px;
 	z-index: 2;
@@ -73,7 +73,7 @@ body{
 	top: 0;
 	left:0;
 	position: fixed;
-	background: url('frame_top.jpg');
+	background: url('../img/frame_top.jpg');
 	background-repeat: repeat-x;
 	height: 70px;
 	width: 100%;
@@ -83,7 +83,7 @@ body{
 	bottom:0;
 	left:0;
 	position: fixed;
-	background: url('frame_bottom.jpg');
+	background: url('../img/frame_bottom.jpg');
 	width: 100%;
 	height: 70px;
 	z-index: 3;
@@ -92,7 +92,7 @@ body{
 	right:0;
 	top:0;
 	position: fixed;
-	background: url('frame_right.jpg');
+	background: url('../img/frame_right.jpg');
 	width: 70px;
 	height: 100%;
 	z-index: 3;
@@ -101,7 +101,7 @@ body{
 	left:0;
 	top:0;
 	position: fixed;
-	background: url('frame_left.jpg');
+	background: url('../img/frame_left.jpg');
 	height: 100%;
 	width: 70px;
 	z-index: 3;
@@ -111,7 +111,7 @@ body{
 	left:0;
 	top:0;
 	position: fixed;
-	background: url('topL.jpg');
+	background: url('../img/topL.jpg');
 	height: 70px;
 	width: 70px;
 	z-index: 4;
@@ -121,7 +121,7 @@ body{
 	right:0;
 	top:0;
 	position: fixed;
-	background: url('topR.jpg');
+	background: url('../img/topR.jpg');
 	height: 70px;
 	width: 70px;
 	z-index: 4;
@@ -131,7 +131,7 @@ body{
 	left:0;
 	bottom:0;
 	position: fixed;
-	background: url('bottomL.jpg');
+	background: url('../img/bottomL.jpg');
 	height: 70px;
 	width: 70px;
 	z-index: 4;
@@ -140,7 +140,7 @@ body{
 	right:0;
 	bottom:0;
 	position: fixed;
-	background: url('bottomR.jpg');
+	background: url('../img/bottomR.jpg');
 	height: 70px;
 	width: 70px;
 	z-index: 4;
@@ -151,7 +151,7 @@ body{
 	width: 100%;
 	height:100%;
 	position: fixed;
-	background: url('glass.png');
+	background: url('../img/glass.png');
     background-size: 100% 100%;
 	z-index: 2;
 }
@@ -251,24 +251,23 @@ input[type="radio"]:checked ~ label {
      color: red;
     }
 
-    @-moz-keyframes blinker {  
+    @-moz-keyframes blinker {
      0% { opacity: 1.0; }
      10% { opacity: 0.0; }
      90% { opacity: 0.0; }
      100% { opacity: 1.0; }
      }
 
-    @-webkit-keyframes blinker {  
+    @-webkit-keyframes blinker {
      0% { opacity: 1.0; }
      10% { opacity: 0.0; }
      90% { opacity: 0.0; }
      100% { opacity: 1.0; }
      }
 
-    @keyframes blinker {  
+    @keyframes blinker {
      0% { opacity: 1.0; }
      10% { opacity: 0.0; }
      90% { opacity: 0.0; }
      100% { opacity: 1.0; }
      }
-   }
